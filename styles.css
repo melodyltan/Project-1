@@ -1,0 +1,46 @@
+/* Typography */
+body {
+  /* Everything is Montserrat */
+  font-family: 'Montserrat', sans-serif;
+}
+/* Except we used more specific rules to override the headlines */
+
+h1 {
+  font-family:'Playball', serif;
+  font-size: 100px}
+
+h4 {
+  font-family: 'Playball', serif;
+  font-size: 60px;
+  color: orange
+}
+
+h5, h6 {
+  font-family: 'DM Serif Text', sans-serif;
+  font-size: 30px
+}
+
+h7 {
+  font-family: 'DM Serif Text', sans-serif ;
+  font-size: 20px;
+  color: black;
+}
+
+/* The "logo" */
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Jumbotron background and font styles */
+.jumbotron {
+    /* Background */
+    background-attachment: fixed;
+    background-image: url(pasta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Text shadow */
+    color: white;
+    text-shadow: 1px 1px 1px pink;
+  }
